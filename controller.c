@@ -140,11 +140,7 @@ void setup()
         strip_index = 0;
       }
       
-    
     }
-    Serial.println("\nConnected!");
-    Serial.print("IP Address: ");
-    Serial.println(WiFi.localIP());
     sendMessage("IT HAS BEEN SENT");
 }
 
