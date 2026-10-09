@@ -90,8 +90,6 @@ void setup()
     //Sets the ssid and password
     WiFi.begin(SSID, PASSWORD);
 
-    //Connecting the password
-    Serial.println("Connecting to the password");
     strip.begin();
 
     //Turns on the strips
@@ -114,6 +112,8 @@ void setup()
       strip.show();
     }
 
+    //Connecting the WIFI
+    Serial.println("Connecting to the WIFI");
     //Connects to the password
     while(WiFi.status() != WL_CONNECTED)
     {
