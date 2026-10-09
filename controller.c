@@ -1,4 +1,5 @@
 //Put this code inside arduino
+//Then delete the controller.c in this folder when finished
 #include "Freenove_WS2812_Lib_for_ESP32.h"
 #include "LiquidCrystal_I2C.h"
 #include <WiFi.h>
